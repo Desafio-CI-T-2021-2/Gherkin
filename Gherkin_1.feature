@@ -12,3 +12,10 @@ Cenario: Busca por categoria
   E seleciono a opção 'Category'
   Quando clico no botão de buscar
   Entao visualizo uma listagem contendo 25 itens e o controle de paginação ao fim da página
+
+   Cenario: Buscar questões formuladas por um usuario
+     Dado que o usuario busque por um criador específico
+        E tenha selecionado o campo de busca por 'user'
+      Quando clicar no botão buscar
+      Entao deve retornar uma lista de questões elaboradas pelo criador
+     
